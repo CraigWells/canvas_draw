@@ -1,0 +1,4 @@
+notes:
+
+- detect browser for download function compatibility
+- responsive design

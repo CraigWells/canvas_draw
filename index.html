@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='css/spectrum.css' />
+    <title>Canvas Draw test</title>
+</head>
+
+<body>
+    <div id="application-container">
+        <div id="colour-box-container">
+            <input type='text' id="custom" />
+            <div class="brush-box selected" id="brush-1">
+                <div id="px-1" class="brush"></div>
+            </div>
+            <div class="brush-box" id="brush-2">
+                <div id="px-2" class="brush"></div>
+            </div>     
+            <div class="brush-box" id="brush-4">
+                <div id="px-4" class="brush"></div>
+            </div>
+            <div class="brush-box" id="brush-8">
+                <div id="px-8" class="brush"></div>
+            </div>
+            <div class="brush-box" id="brush-16">
+                <div id="px-16" class="brush"></div>
+            </div>
+            <div class="brush-box" id="brush-32">
+                <div id="px-32" class="brush"></div>
+            </div>
+        </div>
+        <!--div id="canvas-wrapper" -->
+        	<canvas id="canvas-area" height="470" width="900"></canvas>
+        <!-- /div -->
+        <div id="actions-toolbar">
+            <div id="info">
+              <div id="x-container">
+                  <div>x : </div><div id="x"></div>
+              </div>
+              <div id="y-container">
+                  <div>y : </div></label><div id="y"></div>
+              </div>
+            </div>
+            <div id="actions-buttons">
+                <a href="#" class="button" id="download" download="my-scribblr-file.png">Download</a>
+                <button class="button" id="share-options">Share</button>
+                <!--
+					Revert to button that calls pop-up to select social media options
+					pintrest
+					facebook
+                -->
+            </div>
+        </div>
+    </div>
+    <div id="share-screen" class="hidden">
+    	
+    	
+    </div>
+</body>
+<script src="scripts/jquery.min.js"></script>
+<script src='scripts/spectrum.js'></script>
+<script src="scripts/script.js"></script>
+</html>

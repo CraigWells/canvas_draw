@@ -1,0 +1,60 @@
+/* media query - for this screen */
+
+body{min-height:1px; min-width:1px; width:100%; height:100%; margin:0;}
+canvas{display:inline-block;cursor: url(../images/pencil.png), auto; border:1px solid #35586C; margin-top: 32px;} 
+div{display:inline-block;}
+#application-container{height:100%; width:974px; display:block; margin: 0px auto;}
+#info{height: 10%; float: left; margin-left: 76px;}
+#colour-box-container{width: 57px; float: left; margin-right: 10px; margin-top: 30px;}
+#actions-toolbar{  text-align: right; width: 100%; margin-top: 6px;}
+#x-container{width: 45px; text-align: left;}
+#y-container{margin-left: 20px;}
+.brush{border-radius: 50%; border:1px solid black; background-color: black;}
+div.brush-box:hover{background-color: #A1A1FC;}
+#px-1{
+	width: 1px;
+	height: 1px; 
+	margin-left: 23px;
+	margin-top: 23px;
+}
+#px-2{
+	width: 2px;
+	height: 2px; 
+	margin-left: 23px;
+	margin-top: 23px;
+}
+#px-4{
+	width: 4px;
+	height: 4px; 
+	margin-left: 22px;
+	margin-top: 22px;
+}
+#px-8{
+	width: 8px;
+	height: 8px; 
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#px-16{
+	width: 16px;
+	height: 16px; 
+	margin-left: 16px;
+	margin-top: 16px;
+}
+#px-32{
+	width: 32px;
+	height: 32px; 
+	margin-left: 8px;
+	margin-top: 8px;
+}
+.brush-box{height:48px; width:48px;}
+.selected{border-left: 1px solid #35586C; border-top: 1px solid #35586C; background-color: #E6E6FA;}
+#share-screen{
+	background-color: black;
+	min-width: 100%;
+	min-height: 100px;
+}
+
+.hidden{
+	display:none;
+}
