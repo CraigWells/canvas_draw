@@ -7,7 +7,7 @@
 
 ## Acknowledgements
 
-#### http://www.softicons.com/system-icons/web0.2ama-icons-by-chrfb/pencil-icon
+http://www.softicons.com/system-icons/web0.2ama-icons-by-chrfb/pencil-icon
 
 #### Spectrum Colorpicker v1.7.0
 
