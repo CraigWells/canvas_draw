@@ -79,14 +79,11 @@ $(".brush-box").click(function(){
     };
 }); 
 
-var downloadBtn = $("#download");
-downloadBtn.click(function(){
-    var img = c.toDataURL("image/png");
-    this.href = img;     
-}); 
-/*
-var button = document.getElementById('download');
-button.addEventListener('click', function (e) {
-    var dataURL = canvas.toDataURL('image/png');
-    button.href = dataURL;
-});  */
+function downloadCanvas(link, filename) {
+    link.href = c.toDataURL("image/png");
+    link.download = filename;
+};
+
+document.getElementById('download').addEventListener('click', function() {
+    downloadCanvas(this, 'scribble.png');
+}, false);
