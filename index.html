@@ -10,9 +10,26 @@
     <link href='css/style.css' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='css/spectrum.css' />
     <title>Canvas Draw test</title>
+
+    <meta property="og:url"           content="http://localhost/portfolio/draw/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="paintnpost" />
+    <meta property="og:description"   content="Paint then Post" />
+    <meta property="og:image"         content="http://localhost/portfolio/draw/test.jpg" />
+
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=1053842688001503";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
     <div id="application-container">
         <div id="colour-box-container">
             <input type='text' id="custom" />
@@ -49,12 +66,7 @@
             </div>
             <div id="actions-buttons">
                 <a href="#" class="button" id="download">Download</a>
-                <button class="button" id="share-options">Share</button>
-                <!--
-					Revert to button that calls pop-up to select social media options
-					pintrest
-					facebook
-                -->
+                <div class="fb-share-button" data-href="http://localhost/portfolio/draw/" data-layout="button"></div>
             </div>
         </div>
     </div>
